@@ -1,10 +1,20 @@
 # 🧩 ShaguTweaks — ClassicAPI
 
-A lightweight fork of [ShaguTweaks](https://github.com/shagu/ShaguTweaks) for **Turtle WoW-like servers**.
+**Maintained fork:** [leenux/ShaguTweaks](https://github.com/leenux/ShaguTweaks)
+
+Compatible with **World of Warcraft 1.12.1** and **Turtle WoW 1.18.1** (Interface `11200`).
+
+A lightweight fork of [ShaguTweaks](https://github.com/shagu/ShaguTweaks) / [ShaguTweaks-ClassicAPI](https://octowow.st/git/Dusk/ShaguTweaks-ClassicAPI) for Turtle WoW-like servers.
 
 Focused on **stability, compatibility and performance** while keeping the original ShaguTweaks experience.
 
 > This fork requires ClassicAPI and targets **Turtle WoW-like server/client environments**.
+
+## 🔧 leenux changes (vs ClassicAPI defaults)
+
+- **Movable Unit Frames** default is **off** (`enabled = nil`) so frames stay at Blizzard positions until you opt in under *Esc → Advanced Options*.
+
+Companion extras fork (optional modules): [leenux/ShaguTweaks-extras](https://github.com/leenux/ShaguTweaks-extras).
 
 ## 🔌 Requirements
 
@@ -17,7 +27,7 @@ ClassicAPI is the main API layer. SuperWoW is only used as an additional fallbac
 
 1. Install **ClassicAPI**.
 2. Optionally install **SuperWoW**.
-3. Rename the addon folder to `ShaguTweaks`.
+3. Download from [leenux/ShaguTweaks](https://github.com/leenux/ShaguTweaks), rename the folder to `ShaguTweaks`.
 4. Copy it to `World of Warcraft\Interface\AddOns\ShaguTweaks`.
 5. Restart the game.
 
